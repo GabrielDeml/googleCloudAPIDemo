@@ -17,14 +17,14 @@ var compute = google.compute("v1");
 
 authorize(function (authClient) {
   var request = {
-    // Project ID for this request.
-    project: "tough-progress-247617", // TODO: Update placeholder value.
 
-    // The name of the zone for this request.
-    zone: "us-central1-a", // TODO: Update placeholder value.
+    project: "tough-progress-247617", 
 
-    // Name of the instance resource to stop.
-    instance: "wpilib2", // TODO: Update placeholder value.
+
+    zone: "us-central1-a"
+
+
+    instance: "wpilib2",
 
     auth: authClient,
   };
