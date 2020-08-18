@@ -21,10 +21,10 @@ var compute = google.compute("v1");
 
 authorize(function (authClient) {
   var request = {
-    project: "tough-progress-247617",
+    project: "wpilib",
     zone: "us-central1-a",
     resource: {
-      name: "wpilib2",
+      name: "wpilib",
       machineType: "zones/us-central1-a/machineTypes/e2-standard-2",
       disks: [
         {

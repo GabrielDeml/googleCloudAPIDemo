@@ -17,14 +17,11 @@ var compute = google.compute("v1");
 
 authorize(function (authClient) {
   var request = {
+    project: "wpilib",
 
-    project: "tough-progress-247617", 
+    zone: "us-central1-a",
 
-
-    zone: "us-central1-a"
-
-
-    instance: "wpilib2",
+    instance: "wpilib",
 
     auth: authClient,
   };
